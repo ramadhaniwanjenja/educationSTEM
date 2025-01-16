@@ -1,0 +1,133 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(to right, #007bff, #00d4ff);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    padding: 1rem 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00d4ff;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+}
+
+/* Courses Section */
+.courses {
+    padding: 2rem 0;
+    text-align: center;
+    background: #fff;
+}
+
+.courses h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.course-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 300px;
+}
+
+.course-card h3 {
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
